@@ -42,9 +42,9 @@ env:
     - CT_SAMPLE=arm-unknown-linux-musleabi
     - CT_SAMPLE=aarch64-unknown-linux-gnueabi
     - CT_SAMPLE=mips64el-multilib-linux-uclibc
-    - CT_SAMPLE=powerpc-e500v2-linux-gnuspe
+    - CT_SAMPLE=x86_64-multilib-linux-gnu
     - CT_SAMPLE=x86_64-unknown-linux-uclibc
-    - CT_SAMPLE=xtensa-unknown-linux-uclibc
+    - CT_SAMPLE=arm-multilib-linux-uclibcgnueabi
 
 # Building the standard samples
 script:
